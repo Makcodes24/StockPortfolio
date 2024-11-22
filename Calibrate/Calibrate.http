@@ -1,0 +1,6 @@
+@Calibrate_HostAddress = http://localhost:5062
+
+GET {{Calibrate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
