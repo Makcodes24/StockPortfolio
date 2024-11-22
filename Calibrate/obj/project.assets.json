@@ -435,11 +435,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anilc\\OneDrive\\Documents\\StockPortfolio\\Calibrate\\Calibrate.csproj",
+      "projectUniqueName": "C:\\Users\\anilc\\Downloads\\delete\\SP\\Calibrate\\Calibrate.csproj",
       "projectName": "Calibrate",
-      "projectPath": "C:\\Users\\anilc\\OneDrive\\Documents\\StockPortfolio\\Calibrate\\Calibrate.csproj",
+      "projectPath": "C:\\Users\\anilc\\Downloads\\delete\\SP\\Calibrate\\Calibrate.csproj",
       "packagesPath": "C:\\Users\\anilc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anilc\\OneDrive\\Documents\\StockPortfolio\\Calibrate\\obj\\",
+      "outputPath": "C:\\Users\\anilc\\Downloads\\delete\\SP\\Calibrate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

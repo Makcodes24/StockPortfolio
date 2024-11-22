@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WTkpIaoPsixDh1Cgtx4JlNL8JpjgRhgOwkhOAVyRKahE9ujJYq4UphLVincoGihFcQ0PFj+i91KllrnJMTZ1tQ==",
+  "dgSpecHash": "ecPHZsxmVYXSSjzQQ2gw0VlfWo1JR8Uucuw7uUIgFGhuZvAOfH3PcGEDIV/FH3pn/KPSTHSv1ttBxWcSWyI00Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anilc\\OneDrive\\Documents\\StockPortfolio\\PortfolioApi\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\Users\\anilc\\Downloads\\delete\\SP\\PortfolioApi\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anilc\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\anilc\\.nuget\\packages\\azure.core.amqp\\1.3.1\\azure.core.amqp.1.3.1.nupkg.sha512",
