@@ -1,0 +1,13 @@
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\bin\Debug\net5.0\Contracts.dll
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\bin\Debug\net5.0\Contracts.pdb
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\refint\BusinessLayer.dll
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\Users\anilc\Source\Repos\HDSupply\PortfolioApi\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
