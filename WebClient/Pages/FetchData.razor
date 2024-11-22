@@ -1,0 +1,48 @@
+﻿@page "/fetchdata"
+
+@using WebClient.Model
+@using WebClient.ViewModel
+@inject IPositionService positionService
+@*@inject IHttpClientFactory ClientFactory*@
+
+<h1>Portfolio Positions</h1>
+
+<p>=======================================</p>
+
+@if (positions == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Current Position</th>
+                <th>Desired %</th>
+                <th>Trade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var position in positions)
+            {
+                <tr>
+                    <td>@position.Symbol</td>
+                    <td>@position.Quantity</td>
+                    <td>@position.Percentage</td>
+                    <td>@position.Trade</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Position> positions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        positions = await positionService.CalibratePortfolioAsync(null);
+    }
+}
