@@ -1,0 +1,6 @@
+@MarketData_HostAddress = http://localhost:5117
+
+GET {{MarketData_HostAddress}}/MarketData/
+Accept: application/json
+
+###
