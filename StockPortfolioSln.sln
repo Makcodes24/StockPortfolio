@@ -4,12 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebClient", "WebClient", "{6DCA987C-953F-465F-A382-1BCFF1A7B03E}"
+	ProjectSection(SolutionItems) = preProject
+		..\WebClient\WebClient.sln = ..\WebClient\WebClient.sln
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calibrate", "Calibrate", "{B21A3A13-7F84-4DC0-BA1C-BD31855B3EEB}"
+	ProjectSection(SolutionItems) = preProject
+		..\Calibrate\Calibrate.sln = ..\Calibrate\Calibrate.sln
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarketData", "MarketData", "{C7A6DDAB-304E-4C13-8A30-4338CB7F4AE7}"
+	ProjectSection(SolutionItems) = preProject
+		..\MarketData\MarketData.sln = ..\MarketData\MarketData.sln
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortfolioApi", "PortfolioApi", "{26F84B25-0EEF-4DBC-8CA7-F8C3369BC45F}"
+	ProjectSection(SolutionItems) = preProject
+		..\PortfolioApi\PortfolioApi.sln = ..\PortfolioApi\PortfolioApi.sln
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClient", "..\WebClient\WebClient.csproj", "{2ACE665B-E3E4-4D67-B854-A271A112DB3F}"
 EndProject
