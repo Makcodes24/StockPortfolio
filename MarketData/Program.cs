@@ -1,4 +1,15 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Identity.Web;
+
 var builder = WebApplication.CreateBuilder(args);
+//var configValue = builder.Configuration.GetValue<string>("AzureAd");
+var config = new ConfigurationBuilder()
+        .SetBasePath(Directory.GetCurrentDirectory())
+        .AddJsonFile("appsettings.json", optional: true)
+        .AddCommandLine(args)
+        .Build();
+
 
 // Add services to the container.
 
@@ -6,6 +17,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+     .AddMicrosoftIdentityWebApi(config.GetSection("AzureAd"));
 
 var app = builder.Build();
 

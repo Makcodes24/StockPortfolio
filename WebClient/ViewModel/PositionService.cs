@@ -9,6 +9,7 @@ using System.Net.Http.Json;
 using Newtonsoft.Json;
 using WebClient.Model;
 using System.Text;
+using System.Net.Http.Headers;
 
 namespace WebClient.ViewModel
 {
@@ -16,9 +17,11 @@ namespace WebClient.ViewModel
     {
 
         private readonly HttpClient httpClient;
-        public PositionService(HttpClient _httpClient)
+        private ITokenService TokenService;
+        public PositionService(HttpClient _httpClient, ITokenService _tokenService)
         {
             httpClient = _httpClient;
+            TokenService = _tokenService;
         }
 
         public IEnumerable<Position>? position { get; set; }
@@ -29,6 +32,8 @@ namespace WebClient.ViewModel
 
             try
             {
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", TokenService.AccessToken);
+                
                 var response = await httpClient.SendAsync(request);
 
                 if (response.IsSuccessStatusCode)
@@ -84,6 +89,7 @@ namespace WebClient.ViewModel
 
                 };
 
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", TokenService.AccessToken);
                 var bodyContent = JsonConvert.SerializeObject(positionList);
                 var uri = new Uri("http://localhost/PortfolioApi/Position");
                 var response = await httpClient.PostAsync(uri, new StringContent(bodyContent, Encoding.UTF8, "application/json"));

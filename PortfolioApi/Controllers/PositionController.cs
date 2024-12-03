@@ -8,9 +8,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using BusinessLayer.QueryHandlers;
 using BusinessLayer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.Identity.Web.Resource;
 
 namespace PortfolioApi.Controllers
 {
+    [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class PositionController : ControllerBase
